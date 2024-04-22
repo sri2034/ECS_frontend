@@ -115,7 +115,7 @@ function App() {
         <>
           <MapContainer
             center={[location.lat, location.lon]}
-            zoom={15}
+            zoom={18}
             style={{ height: '360px', width: '90%' ,marginTop:'10px',marginLeft:'75px',marginRight:'50px'}}
             whenCreated={mapInstance => mapRef.current = mapInstance}
           >
