@@ -1,0 +1,119 @@
+#container {
+  margin-top: 25px;
+  display: flex;      /* Establishes a flex container */
+  align-items: center;
+  justify-content:center; 
+  font-weight: bolder;
+}
+
+#logo {
+  width: 150px; /* or any other dimensions */
+  height: auto; /* maintain aspect ratio */
+  margin-right: 20px; /* Optional: adds some space between the image and the text */
+}
+
+#container p {
+  margin: 0 10px; /* Adjusts margin around paragraphs to manage spacing */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  /* font-size: 30px; */
+  padding: 0;
+}
+header {
+  background-color:rgb(222, 181, 181);
+  color:maroon;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+}
+#logo{
+  width: 500px;
+  height: 300px;
+  margin-left: 30px;
+  display: inline-flex;
+}
+#routedet{
+  display: inline-flex;
+}
+header h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px 20px 10px 20px;
+  border: 3px black solid;
+  margin: 30px 20px 100px 20px;
+  
+}
+
+footer {
+  background-color:rgb(222, 181, 181);
+  color: maroon;
+  padding: px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-weight: bold;
+}
+
+#routeSelection {
+  margin: 10px;
+  /* margin-bottom: 20px; */
+  text-align: center;
+  color:darkslateblue;
+}
+
+select {
+  width: 150px;
+  height: 30px;
+}
+
+#stops, #locmap {
+  text-align: center;
+  color: darkgreen;
+  display: none;
+  font-weight: bold;
+}
+
+#showLocationBtn,#goBackBtn ,#submit{
+  height: 30px;
+  width: 250px;
+  border-radius: 40px;
+}
+#imageBox{
+  text-align: center;
+  padding: auto;
+  display: inline-flexbox;
+}
+#imageBox img{
+  width: 500px;
+  height: 300px;
+  margin: auto;
+  padding: auto;
+  margin-top: 3px;
+}
+#img-box{
+  text-align: center;
+  display: inline-flexbox;
+}
+#img-box img{
+  width: 400px;
+  height: 300px;
+  margin: auto;
+  margin-top: 3px;
+  padding-bottom: 0px;
+}
+
+#location{
+  text-align: center;
+  font-weight: bold;
+  color: blue;
+}
+
+.buttons{
+  text-align: center;
+}
